@@ -21,12 +21,20 @@ body {
 .horizontal-list li {
     display: inline;
     max-width: 0px 8px 8px 0px;
+    font-size: 24px;
 
 }
 
 .horizontal-list li a {
     color: white;
     text-decoration: none;
+    transition:  0.9s border-bottom 0.4s;
+
+}
+
+.horizontal-list li a:hover {
+    color: red;
+    border-bottom: 1px solid wheat;
 }
 
 .text-center {
