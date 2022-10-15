@@ -40,3 +40,10 @@ body {
 .text-center {
     text-align: center;
 }
+
+
+/* Add social media icons */
+
+#name-social-container {
+    margin: 5px;
+}
