@@ -51,4 +51,20 @@ body {
 #my-name {
     font-size: 30px;
     letter-spacing: 1px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li {
+    border-radius: 50%;
+}
+
+.social-icons li:hover {
+     box-shadow: rgba(230,196,196,0.3);
+}
+
+.social-icons li a img {
+    width: 1rem;
+    padding: 8px;
 }
