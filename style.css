@@ -70,3 +70,11 @@ body {
     width: 1rem;
     padding: 8px;
 }
+
+           /* about section */
+
+#about {
+    height: auto;
+    width: 100%;
+}
+
