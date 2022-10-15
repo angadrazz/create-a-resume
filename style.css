@@ -2,6 +2,8 @@ body {
     margin: 0px;
 }
 
+      /* body header */
+
 #body-header {
     height: 65vh;
     background-image: url(/images/laptop-g9b5ad2b47_1920.jpg);
@@ -9,6 +11,8 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
+     /* horizontaal list */
 
 .horizontal-list {
     list-style: none;
