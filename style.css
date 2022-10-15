@@ -9,3 +9,17 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
+.horizontal-list {
+    list-style: none;
+}
+
+.horizontal-list li {
+    display: inline;
+    max-width: 0px 8px 8px 0px;
+
+}
+
+.horizontal-list li a {
+    color: white;
+}
