@@ -215,6 +215,13 @@ section:nth-child(2n + 1) {
     border: 2px solid black;
 }
 
+.timeline-box{
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+}
+
 
 
 /* Portfolio Section */
