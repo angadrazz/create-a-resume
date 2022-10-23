@@ -207,6 +207,15 @@ section:nth-child(2n + 1) {
 }
 
 
+/* Timeline */
+
+.timeline{
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+
+
 
 /* Portfolio Section */
 
