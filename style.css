@@ -209,7 +209,7 @@ section:nth-child(2n + 1) {
 
 /* Timeline */
 
-.timeline{
+#experience{
     position: relative;
     width: 75%;
     border: 2px solid black;
@@ -217,7 +217,8 @@ section:nth-child(2n + 1) {
 
 .timeline-box{
     position: relative;
-    width: 40%;
+    margin: 5px;
+    width: 10%;
     left: 5%;
     min-height: 150px;
     border: 2px solid black;
