@@ -501,7 +501,7 @@ button:focus {
 }
 
 :target {
-    animation: highlight 1s ease;  
+    animation: highlight 1s ease-in-out;  
     transform: translateX(20px);     
   }
   @keyframes highlight {
