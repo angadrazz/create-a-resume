@@ -240,6 +240,7 @@ section:nth-child(2n + 1) {
 .timeline-traveller {
     position: sticky;
     top: 25%;
+    transform: rotate(90deg);
 }
 
 
