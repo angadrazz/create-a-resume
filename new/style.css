@@ -81,3 +81,38 @@ Wrong Answer, Attempt Again */
    }
     
 }
+
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.resp {
+    width: 32%;
+    margin: 0.44%;
+    height: 300px;
+    display: inline-block;
+}
+
+
+.red {
+    background-color: #ff8989;
+}
+
+.green {
+    background-color: #88f7ce;
+}
+
+.purple {
+    background-color: #e29df2;
+}
+
+@media only screen and (max-width: 600px) {
+    .resp {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+}
