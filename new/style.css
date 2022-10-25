@@ -1,0 +1,64 @@
+/* #even p:nth-child(2n) {
+    color: red;
+} */
+
+/* #even:nth-child(2n+1) { 
+    color: aqua;
+ } */
+
+/* p:nth-child(2n) {  
+    color: yellowgreen;
+ } */
+
+
+#even p:nth-child(2n) {
+    color: blue;
+ }
+
+
+/* #even::nth-child(2n+1) { … } */
+/* warning
+Wrong Answer, Attempt Again */
+
+
+
+
+#divA{
+    height: 300px; 
+    width: 1000px;
+    background-color: red;
+}
+#divB{
+    height: 300px; 
+    width: 70%;
+    background-color: green;
+}
+
+#boxes {
+  
+    height: 150px;
+    width: 300px;
+    background-image: repeating-linear-gradient(45deg, #9e6df9, #f77656 25%, #5ffc87 50%);
+  
+}
+
+:target {
+    animation: highlight 1s ease-in-out;  
+    transform: translateX(20px);     
+  }
+  @keyframes highlight {
+    0% { border-left-color: red; }
+    100% { border-left-color: white; }
+  }
+  section > div {
+    border-left: 40px solid white;
+    padding: 10px;
+    transition: all 0.5s ease;     
+    padding-right: 50px;
+    margin-left: -20px;    
+  }
+
+  p:nth-child(2n){
+    color: red;
+  }
+
