@@ -62,3 +62,15 @@ Wrong Answer, Attempt Again */
     color: red;
   }
 
+
+#mediaqueries {
+    width: 60%;
+    border: 2px solid black;
+}
+
+@media screen and (max-width:600px) {
+    #mediaqueries {
+        width: 100%;
+    }
+    
+}
