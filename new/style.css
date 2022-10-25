@@ -74,3 +74,10 @@ Wrong Answer, Attempt Again */
     }
     
 }
+
+@media screen and (min-width: 900px) {
+   #mediaqueries {
+    width: 80%;
+   }
+    
+}
