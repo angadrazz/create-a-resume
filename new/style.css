@@ -103,6 +103,14 @@ h1 {
 
 .green {
     background-color: #88f7ce;
+    position: absolute;
+    transition: 2s ease-in-out;
+}
+
+.green:hover {
+    width: 300px;
+    height: 300px;
+    background-color: red;
 }
 
 .purple {
@@ -115,4 +123,62 @@ h1 {
         display: block;
         margin: 0;
     }
+}
+
+@media (min-width: 768px) : p { … }
+@media (max-width: 768px) : p { … }
+@media (min-width: 768px) { p { … } }
+@media (max-width: 768px ) { p { … } }
+
+
+/* body {
+    background-color: lightgrey;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+} */
+
+body {
+    background-color: lightgrey;
+}
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+#newdiv {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    transform: translateY(100px);
+}
+
+
+#para {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    color: black;
+    
 }
